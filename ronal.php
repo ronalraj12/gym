@@ -17,5 +17,5 @@ $to="rajronal018@gmail.com"
 $headers ="from: $email_from\r\n";
 $headers ="Reply-To: $vistor_email\r\n";
 mail($to,$email_subject,$email_body,$headers)
-header("Location: enroll.html");
+header("Location: index.html");
 ?>                
